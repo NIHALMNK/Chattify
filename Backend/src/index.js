@@ -20,7 +20,7 @@ app.use(express.json({ limit: "10mb" }));
 app.use(express.urlencoded({ limit: "10mb", extended: true }));
 app.use(cookieParser());
 app.use(cors({
-  origin: "https://chattify-1-8o4t.onrender.com", 
+  origin: "https://chattify-rho.vercel.app", 
   credentials: true, 
 }));
 
